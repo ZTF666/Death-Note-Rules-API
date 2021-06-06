@@ -1,0 +1,21 @@
+{
+  "name": "rules",
+  "version": "0.0.1",
+  "description": "death note rules database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "backend",
+    "api"
+  ],
+  "author": "ZTF666@protonmail.ch",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
