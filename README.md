@@ -4,12 +4,16 @@ A simple API containing 91 entries about the famous anime/manga series ' Death n
 
 This was created using :
 
+<div align="center">
+  
  <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" width="40" height="40"/>  
  
  <img src="https://raw.githubusercontent.com/gilbarbara/logos/e0babf54f7ac9127942111bf177f549b709a60be/logos/vuetifyjs.svg" alt="vuetifyjs" width="40" height="40"/>
 
- <img src="https://www.vectorlogo.zone/logos/json/json-icon.svg" alt="json" width="40" height="40"/>
-
+ <img src="https://www.vectorlogo.zone/logos/json/json-icon.svg" alt="json" width="40" height="40"/>  
+  
+</div>
+  
 ## API Reference
 
 #### Get all items
@@ -21,7 +25,9 @@ This was created using :
 #### Get item
 
 ```http
-  GET /api/rules/${id}
+  GET /api/rules/id  
+  
+  GET /api/rules/
 ```
 
 | Parameter | Type     | Description         |
@@ -36,6 +42,10 @@ This was created using :
 The api is using the JSON-SERVER package .  
 cd into the api's folder and run :
 
+```
+npm i
+```
+afterwards  
 ```
 json-server --watch rules.json
 ```
